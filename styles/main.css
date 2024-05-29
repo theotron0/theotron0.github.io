@@ -7,6 +7,11 @@ p {
     border: 5px solid red;
     
 }
+.border-black{
+    border: 5px solid black;}
+.border-grey{ 
+    border:5px solid grey
+}
 #content{
     margin: auto;
     width:50%;
@@ -32,12 +37,13 @@ a:visited{
 }
 .fading-gallery {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space;
+    flex-wrap: nowrap;
 }
 .fading-gallery img {
-    width: 70px;
-    height: 70px;
+    transform: translateY(-100px);
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 .fading-gallery img:hover {
@@ -64,4 +70,33 @@ a:visited{
     color: white;
     background-color: #00aaff;
     transition-duration: 0.5s;
+}
+
+#background-white {
+    background-color: grey;
+    color:white;
+    display:inline-block;
+    text-align: center;
+    transition:0.5s;
+    cursor: pointer;
+    padding:10px,20px;
+}
+#background-white:active{
+    transform: scale(0.8,0.8);
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+#background-red {
+    background-color: red;
+    color:white;
+    display:inline-block;
+    text-align: center;
+    transition:0.5s;
+    cursor: pointer;
+    padding:10px,20px;
+}
+#background-red:active{
+    transform: scale(0.8,0.8);
+    box-shadow: 5px 5px 5px grey;
 }
