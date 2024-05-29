@@ -12,6 +12,9 @@ p {
 .border-grey{ 
     border:5px solid grey
 }
+.border-cream{ 
+    border:5px solid bisque;
+}
 #content{
     margin: auto;
     width:50%;
