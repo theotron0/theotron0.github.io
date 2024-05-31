@@ -38,21 +38,6 @@ a:visited{
 .big-text:hover{
     font-size: larger;
 }
-.fading-gallery {
-    display: flex;
-    justify-content: space;
-    flex-wrap: nowrap;
-}
-.fading-gallery img {
-    transform: translateY(-100px);
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-.fading-gallery img:hover {
-    transform: translate(5px, -10px) scale(2);
-    transition: ease-out 2s;
-    filter: drop-shadow(10px 10px 10px);
 }
 .animated-nav-menu ul {
     list-style: none;
@@ -102,4 +87,25 @@ a:visited{
 #background-red:active{
     transform: scale(0.8,0.8);
     box-shadow: 5px 5px 5px grey;
+}
+.darkened{
+    opacity: 50%;
+    transition: 1.5s;
+    box-shadow: black;
+}
+.darkened:hover{
+    opacity:100%;
+    transition: 1.5s;
+}
+.return{
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 5px;
+    color: #ff2600;
+    background-color: grey;
+}
+.return:hover{ 
+    color: orangered;
+    background-color:burlywood ;
+    transition-duration: 0.5s;
 }
