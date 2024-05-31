@@ -44,3 +44,10 @@ body {
     background-color:burlywood ;
     transition-duration: 0.5s;
 }
+.big-text{
+  color:black;
+  transition: 1s;
+}
+.big-text:hover{
+  font-size: larger;
+}
