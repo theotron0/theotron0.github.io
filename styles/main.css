@@ -115,3 +115,7 @@ a:visited{
 body {
 background-color: cornsilk;
 }
+time {
+    font-weight: bold ;
+    font-family: 'Times New Roman', Times, serif;
+}
