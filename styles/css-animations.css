@@ -30,42 +30,4 @@
     transition-duration: 0.5s;
 }
 
-/* Task 3: Button Press Animation */
-.button-press-animation button {
-    padding: 30px 30px;
-    border: none;
-    background-color: #ff1e00;
-    color: white;
-    cursor: pointer;
-    transform: translateX(0px) translateY(0px);
-}
-
-.button-press-animation button:active{
-    padding: 20px 20px;
-    border: none;
-    background-color: #00aaff;
-    cursor: pointer;
-    transform: translateX(5px) translateY(5px);
-}
-
-
-
-
-
-.fading-gallery {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.fading-gallery img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-}
-.fading-gallery img:hover {
-    transform: translate(5px, -10px) scale(2);
-    transition: ease-out 2s;
-    filter: drop-shadow(10px 10px 10px);
-}
-
 
