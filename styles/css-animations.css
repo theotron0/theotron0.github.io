@@ -1,4 +1,4 @@
-/* Task 1: Hover Highlight Card */
+
 .hover-highlight-card {
     padding: 20px;
 }
@@ -9,7 +9,6 @@
     box-shadow: 10px 10px 10px;
 }
 
-/* Task 2: Animated Navigation Menu */
 .animated-nav-menu ul {
     list-style: none;
     padding: 0;
