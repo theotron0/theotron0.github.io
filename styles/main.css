@@ -59,35 +59,6 @@ a:visited{
     background-color: #00aaff;
     transition-duration: 0.5s;
 }
-
-#background-white {
-    background-color: grey;
-    color:white;
-    display:inline-block;
-    text-align: center;
-    transition:0.5s;
-    cursor: pointer;
-    padding:10px,20px;
-}
-#background-white:active{
-    transform: scale(0.8,0.8);
-    box-shadow: 5px 5px 5px grey;
-
-}
-
-#background-red {
-    background-color: red;
-    color:white;
-    display:inline-block;
-    text-align: center;
-    transition:0.5s;
-    cursor: pointer;
-    padding:10px,20px;
-}
-#background-red:active{
-    transform: scale(0.8,0.8);
-    box-shadow: 5px 5px 5px grey;
-}
 .darkened{
     filter: saturate(0.2) brightness(0.5);
     transition: 1.5s;
@@ -117,5 +88,5 @@ background-color: cornsilk;
 }
 time {
     font-weight: bold ;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
