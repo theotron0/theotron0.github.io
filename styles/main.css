@@ -109,3 +109,13 @@ time {
 .img {
     flex-wrap: wrap;
 }
+
+#extra {
+  transition: opacity 0.5s;
+}
+.gallery {
+    display:flex;
+    flex:wrap;
+    justify-content:center;
+    gap:15px;
+}

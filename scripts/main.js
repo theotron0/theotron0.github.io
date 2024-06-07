@@ -64,4 +64,5 @@ for (let i = 0; i < arr.length; i++) {
     reverse.push(arr.at(-i - 1));
 }
 console.log(reverse);
- 
+  
+
