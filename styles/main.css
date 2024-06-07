@@ -105,11 +105,6 @@ time {
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.img {
-    flex-wrap: wrap;
-}
-
 #extra {
   transition: opacity 0.5s;
 }
