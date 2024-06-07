@@ -115,7 +115,7 @@ time {
 }
 .gallery {
     display:flex;
-    flex:wrap;
+    flex-wrap:wrap;
     justify-content:center;
     gap:15px;
 }
